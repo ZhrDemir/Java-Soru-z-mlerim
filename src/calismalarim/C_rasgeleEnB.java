@@ -17,7 +17,7 @@ public class C_rasgeleEnB {
 
         for (int i = 0; i < 10; i++) {
 
-            int rastSayi = random.nextInt(100);
+            int rastSayi = random.nextInt(101);
             arr[i] = rastSayi;
         }
         System.out.println("10 elemanlı rastgele sayı dizisi : " + Arrays.toString(arr));
