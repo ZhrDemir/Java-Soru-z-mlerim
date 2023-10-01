@@ -1,10 +1,8 @@
 package calismalarim;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
-public class C_girilenSayilaraKAsalSxxxxx {
+public class C_girilenSayilaraKAsalS {
     public static void main(String[] args) {
 
         //  Kullanıcı tarafından girilen sayıya kadar olan
@@ -17,18 +15,22 @@ public class C_girilenSayilaraKAsalSxxxxx {
 
         List<Integer> asalList = new ArrayList<>();
 
-        for (int i = 2; i < sayi ; i++) {
+        asalList.add(2);
 
-            for (int j = 2; j <= i ; j++) {
+        for (int i = 3; i <=sayi ; i++) {
 
-                if ( i % j == 0){
+            for (int j = 2; j <i ; j++) {
 
-            }
+                if ( !(i % j == 0)){
 
+                   if (!asalList.contains(i)) {
 
+                       asalList.add(i);
+                   }
+            }else j=i;
            }
         }
 
-
+        System.out.println(asalList);
     }
 }

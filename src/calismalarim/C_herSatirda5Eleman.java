@@ -24,15 +24,6 @@ public class C_herSatirda5Eleman {
         }          System.out.println("liste" + liste);
 
 
-     //  for (int i = 0; i < 5; i++) {
-     //      System.out.print(liste.get(i) + " ");
-     //  }
-     //  System.out.println(" ");
-
-     //  for (int i = 5 ; i <10 ; i++) {
-     //      System.out.print(liste.get(i) + " ");
-     //  }
-
         int sayac = 0;
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 5; j++) {
